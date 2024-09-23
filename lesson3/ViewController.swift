@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         table.register(UserTableViewCell.self, forCellReuseIdentifier: UserTableViewCell.reuseIdentifier)
         return table
     }()
+
+    lazy var label: UILabel = {
+        let label = UILabel()
+        return label
+    }()
     
     var dataSource: [User] = []
     override func viewDidLoad() {
