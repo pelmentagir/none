@@ -14,3 +14,9 @@ struct User{
     let age: String
     let avatarImage: UIImage?
 }
+struct Ponchik{
+    let product: String
+    let price: Int
+}
+
+// HotFix
