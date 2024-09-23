@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         table.translatesAutoresizingMaskIntoConstraints = false
         table.dataSource = self
         table.delegate = self
-        table.separatorStyle = .singleLine
+        table.separatorStyle = .none
         // разделители в tableview
         table.register(UserTableViewCell.self, forCellReuseIdentifier: UserTableViewCell.reuseIdentifier)
         return table
